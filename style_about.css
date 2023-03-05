@@ -1,43 +1,49 @@
 body {
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
-  }
-  
-  /* Header */
-  header {
+}
+
+
+/* Header */
+
+header {
     background-color: #0074B7;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px; /* Set height for the header */
+    height: 90px;
+    /* Set height for the header */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999; /* Set z-index to ensure header stays on top */
-    padding: 0 20px; /* Add padding to the left and right sides */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  }
-  
-  header h1 {
+    z-index: 999;
+    /* Set z-index to ensure header stays on top */
+    padding: 0 20px;
+    /* Add padding to the left and right sides */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+}
+
+header h1 {
     font-weight: bold;
     font-size: 28px;
     margin: 0;
-  }
-  
-  .navig-links {
+}
+
+.navig-links {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  .navig-links li {
+}
+
+.navig-links li {
     margin-left: 20px;
-  }
-  
-  .navig-links a {
+}
+
+.navig-links a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -45,67 +51,94 @@ body {
     transition: all 0.3s ease;
     padding: 10px;
     display: block;
-  }
-  
-  .navig-links a:hover {
+}
+
+.navig-links a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
-  }
-  
-  /* Main content */
-  main {
-    margin-top: 70px; /* Add margin to top to prevent content from being hidden under header */
-    padding: 20px;
-  }
-  
- section {
-    text-align: center;
-    /* margin-left: 90px; */
-  } 
-  
-  .intro a{text-decoration: none};
+}
 
-  /* About section */
-  .about {
+
+/* Main content */
+
+main {
+    margin-top: 100px;
+    /* Add margin to top to prevent content from being hidden under header */
+    padding: 20px;
+}
+
+section {
+    /*text-align: center;
+     margin-left: 90px; */
+}
+
+.intro {
+    text-align: center;
+    text-decoration: none
+}
+
+.act {
+    text-align: center;
+    align-self: center;
+}
+
+;
+
+/* About section */
+
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  
-  .about img {
+}
+
+.about img {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
-  }
-  
-  .about h2 {
+}
+
+.about h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-  }
-  
-  .about p {
+}
+
+.about p {
     font-size: 1.2rem;
     line-height: 1.5;
     max-width: 600px;
     margin-bottom: 20px;
-  }
-.act-list{
-    text-align: left;
+}
+
+.act-list {
     text-decoration: none;
     list-style: none;
-    margin-left: 210px;
 }
-  
- /* Footer */
-  footer {
+
+
+/* Footer */
+
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
-    
-    /* position: fixed; */
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-  }
+}
+
+nav ul li {
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+    border: 0px solid #ffffff !important;
+    border-bottom: 2px solid rgba(255, 255, 255, .25) !important;
+    xborder-top: 1px solid rgba(255, 255, 255, .25) !important;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, .75) !important;
+    xborder-top: 1px solid rgba(255, 255, 255, .75) !important;
+}
