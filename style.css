@@ -6,7 +6,7 @@ body {
   
   /* Header */
   header {
-    background-color: #0074B7;
+    background-color: #181818;
     color: white;
     display: flex;
     align-items: center;
@@ -106,7 +106,7 @@ body {
   }
   
   .proj-card a {
-    background-color: #0074B7;
+    background-color: #777575;
     border: none;
     color: #fff;
     display: inline-block;
@@ -121,7 +121,8 @@ body {
   }
   
   .proj-card a:hover {
-    background-color: #004466;
+    background-color: #181818;
+    
     
   }
   
